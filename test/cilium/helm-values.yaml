@@ -1,5 +1,12 @@
 bpf:
   masquerade: true
+# bgp:
+#   enabled: true
+#   announce:
+#     loadbalancerIP: true
+#     podCIDR: true
+# bgpControlPlane:
+#   enabled: true
 cluster:
   name: local
 containerRuntime:
